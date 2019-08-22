@@ -2,10 +2,13 @@
 <html lang="en-us">
 
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact | Clara Garcia</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 
 
@@ -24,28 +27,59 @@
   </header>
 
   <div id="main-container" class="container">
-    <section class="main-section">
+    <section class="othersection">
       <h1>Contact</h1>
 
       <form id="contact-form">
         <ul>
-          <li>
+          <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
+          </div>
+
+          <div>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
+          </div>
+
+          <div>
             <label for="message">Message</label>
             <textarea id="message" name="message" required="required"></textarea>
-          </li>
+          </div>
+          <br>
+
+          <input type="submit">
         </ul>
-        <input type="submit">
+
       </form>
 
+      <form class="contactinfo">
+        <ul>
+
+
+
+          <div class="container">
+            <div class="row">
+              <div  class="col">
+              <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+                data-type="horizontal" data-theme="light" data-vanity="clara-ayala-2807a0185"><a class="LI-simple-link"
+                  href='https://www.linkedin.com/in/clara-ayala-2807a0185?trk=profile-badge'>Clara Ayala</a></div>
+              </div>
+              <div class="col">
+                Phone number: 804-516-2865
+              </div>
+            </div>
+          </div>
+        </ul>
+
+      </form>
+
+
+
+
     </section>
+
+
 
   </div>
 
